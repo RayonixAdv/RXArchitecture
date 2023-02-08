@@ -1,0 +1,1 @@
+When calling this instruction, the processor clock will no longer receive power and the output of the clock will be closed, which will cause the CPU to stop. When the clock stops, after a short duration, the full machine power will be disabled.
