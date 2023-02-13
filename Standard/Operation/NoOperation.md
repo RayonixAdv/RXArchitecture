@@ -1,5 +1,10 @@
 This instruction should be used to waste a standard instruction cycle length. This could be used to create real time delays without putting extra load on the processor. This instruction will not interact with storage units, memory, registers, or any other resources of such that store data. This instruction will continue as a normal operation. Operations executed after this should be expected to run normally, no influence will be created by this.
 
+# Signature
+```rxarch
+NoOperation();
+```
+
 # Usage as Delay
 ```rxarch
 [Static]:
